@@ -28,7 +28,7 @@ export const Product = styled.View`
   flex: 1;
 `;
 
-export const ProductImage = styled.Image`
+export const ProductImage = styled.Image.attrs({ resizeMode: 'contain' })`
   height: 122px;
   width: 122px;
   align-self: center;

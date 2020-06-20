@@ -14,7 +14,6 @@ export const ProductContainer = styled.View`
 `;
 
 export const ProductList = styled(FlatList)`
-  flex: 1;
   padding: 0 10px;
 `;
 
@@ -27,7 +26,7 @@ export const Product = styled.View`
   flex-direction: row;
 `;
 
-export const ProductImage = styled.Image`
+export const ProductImage = styled.Image.attrs({ resizeMode: 'contain' })`
   height: 92px;
   width: 92px;
 `;
