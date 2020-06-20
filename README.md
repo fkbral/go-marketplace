@@ -4,10 +4,10 @@ Sample store app with:
 - 🛒 Shopping cart
 
 # 📷 Screenshots
-<section style="display:flex; justify-content: space-between">
+<p style="display:flex; justify-content: space-between">
   <img width=48% style="object-fit:cover" src='./_captures/mobile.png'>
   <img width=48% style="object-fit:cover" src='./_captures/mobile2.png'>
-</section>
+</p>
 
 # 💻 Test locally
 
